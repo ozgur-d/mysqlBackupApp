@@ -51,7 +51,7 @@ namespace mysqlBackupApp
         string dumpPath = "C:\\Users\\USERNAME\\Desktop";
         string constringraw = "server=IPVEYADOMAIN;user=DB_USER;pwd=DB_PASS;";
         string dbnames = "mydb1,mydb2";
-        string excludes = "usertable,pwtable";
+        string excludes = "usertable,loginlogtable";
         static string ApplicationName = "Quickstart";
 
         string dumpFile = "";
