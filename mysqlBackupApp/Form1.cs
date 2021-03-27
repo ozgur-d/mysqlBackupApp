@@ -48,8 +48,10 @@ namespace mysqlBackupApp
 
         bool cancel = false;
 
-        string dumpPath = "C:\\Users\\USERNAME\\Desktop\\backupdb\\";
+        string dumpPath = "C:\\Users\\USERNAME\\Desktop";
         string constringraw = "server=IPVEYADOMAIN;user=DB_USER;pwd=DB_PASS;";
+        string dbnames = "mydb1,mydb2";
+        string excludes = "usertable,pwtable";
         static string ApplicationName = "Quickstart";
 
         string dumpFile = "";
@@ -68,7 +70,12 @@ namespace mysqlBackupApp
         public Form1()
         {
             InitializeComponent();
-            
+
+            txtBackupPath.Text = dumpPath;
+            txtConstr.Text = constringraw;
+            txtDbNames.Text = dbnames;
+            txtExcludes.Text = excludes;
+
             mb = new MySqlBackup();
             mb.ExportProgressChanged += mb_ExportProgressChanged;
 
