@@ -269,6 +269,8 @@ namespace mysqlBackupApp
         {
             constringraw = txtConstr.Text;
             dumpPath = txtBackupPath.Text;
+            dbnames = txtDbNames.Text;
+            excludes = txtExcludes.Text;
             clickProcess();          
         }
 
