@@ -5,4 +5,4 @@ Bu bir nihai release değildir, kendim için yazdığım kodu incelenebilmesi ve
 
 Yine de programda kendinize göre düzenlemeniz gerek yerler bulunmaktadır. Bunu göz önünde bulundurun.
 
-Daha fazla detay için: https://ozgurduyar.com.tr/blog/
+Daha fazla detay için: https://ozgurduyar.com.tr/mysqli-google-drivea-yedekleme/
